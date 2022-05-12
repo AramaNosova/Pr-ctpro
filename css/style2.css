@@ -1,0 +1,807 @@
+body{
+    background-color: #F0F0F0;
+    font-family: 'Gothic A1', sans-serif;
+    max-width: 100%;
+    height: auto;
+}
+.wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-top: -50px;
+
+}
+ 
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.nav>li{
+    padding-left: 25px;
+    margin-left: 24;
+}
+.nav>li>a{
+    text-decoration: none;
+    color: #1848F0;
+}
+
+.title{
+
+    padding-top: 30px;
+    padding-left: 240px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 107.9%;
+}
+.banner3{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: auto;
+    width: auto;
+    height: 750px;
+}
+.banner33{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    width: auto;
+    height: 800px;
+}
+.banner333{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    width: auto;
+    height: 830px;
+}
+.banner34{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: auto;
+    width: auto;
+    height: 900px;
+}
+.girlR{
+    position: absolute;
+    width: 300px; height: 300px;
+    right: -40px;
+    opacity: 0.5;
+    top: -80px;
+}
+.regR{
+    position: relative;
+    margin-left: 190px;
+    margin-top: 50px;
+    border-radius: 7px;
+    width: 800px;
+    height: 620px;
+    background-color: #d14a5d;
+}
+.regS{
+    position: relative;
+    margin-left: 190px;
+    margin-top: 50px;
+    border-radius: 7px;
+    width: 800px;
+    height: 770px;
+    background-color: #d14a5d;
+}
+.regL{
+    position: relative;
+    margin-left: 190px;
+    margin-top: 30px;
+    border-radius: 7px;
+    width: 800px;
+    height: 620px;
+    background-color: #d14a5d;
+    margin-bottom: 25px;
+}
+.regLS{
+    position: relative;
+    margin-left: 190px;
+    margin-top: 0px;
+    border-radius: 7px;
+    width: 800px;
+    height: 740px;
+    background-color: #d14a5d;
+    margin-bottom: 20px;
+}
+.title2{
+    padding-top: 10px;
+    padding-left: 220px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 107.9%;
+    color: #FFFFFF;
+    font-family: 'Gothic A1';
+}
+.h1h, .h1h1{
+    padding-left: 40px;
+}
+.vh1{
+    margin-top: 50px;
+   margin-right: 510px;
+}
+.vh1>p{
+    
+    display: inline-block;  
+    text-align: right;
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    padding-left: 20px;
+    width: 500px;
+}
+.vh{
+    margin-top: 50px;
+   margin-right: 510px;
+}
+.vh>p{
+    
+    display: inline-block;  
+    text-align: right;
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    padding-left: 20px;
+    width: 500px;
+}
+.kn{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 320px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+    display: block;
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    padding-left: 0px;
+    width: 200px;
+}
+.kn1{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 320px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+    display: block;
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    padding-left: 0px;
+    width: 200px;
+}
+footer {
+    position: relative;
+    height: 50px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    padding: 5px 5px;
+    left: 0px;
+    font: 20px;
+    background: #222222;
+    font-family: 'Gothic A1';
+    text-align: center;
+    color: #ffffff;
+ }
+ .footer-col {
+    width: 100%;
+    float: center;
+ }
+ .banner2{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: 550px;
+}
+.picter33{
+    width: 200px; 
+    height: 200px; 
+    margin-top: -50px;
+}
+.picter44{
+    width: 200px; 
+    height: 200px; 
+    margin-top: -50px;
+}
+.picter55{
+    width: 300px; 
+    height: 300px; 
+    margin-top: -120px;
+}
+.picter66{
+    width: 200px; 
+    height: 200px; 
+    margin-top: -50px;
+}
+.picter77{
+    width: 200px; 
+    height: 200px; 
+    margin-top: -50px;
+}
+.picter88{
+    width: 300px; 
+    height: 300px; 
+    margin-top: -130px;
+}
+.btn3{
+    padding-top: 70px;
+    padding-left: 300px;
+    display: flex;
+}
+.btn4{
+    display: block;
+    color: #01089F;
+    text-decoration: none;
+    font-size: 25px;
+    max-width: 300px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    border-color: #01089F;
+    padding: 16px 0px;
+    line-height: 107.9%;
+    text-align: center;
+    list-style-type: none;
+    width: 250px;
+    margin-left: 40px;
+}
+.h1{
+    padding-top: -20px;
+    width: 650px;
+    height: 130px;
+    padding-left: 250px;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 57px;
+    line-height: 107.9%;
+    text-align: center;
+    color: #01089F;
+}
+.banner4{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: 600px;
+}
+.reklamaN7{
+    position: relative;
+    
+    margin-top: 200px;
+    height: 90px;
+    padding: 5px 5px;
+    left: 0px;
+    font: 20px;
+    background: #e4dede;
+    font-family: 'Gothic A1';
+    text-align: center;
+    color: #000000;
+}
+.picter11{
+    position: absolute;
+    width: 140px;
+    height: 170px;
+    left: 20px;
+    top: 120px;
+}
+.picter22{
+    position: absolute;
+    width: 170px;
+    height: 200px;
+    left: 210px;
+    top: 260px;
+}
+.picter4{
+    position: absolute;
+    width: 180px;
+    height: 210px;
+    left: 1000px;
+    top: -50px;
+}
+.vopr{
+    position: absolute;
+    width: 400px;
+    height: 362px;
+    left: 730px;
+    top: 120px;
+}
+.btn{
+    padding-left: 400px;
+}
+.btn1{
+    display: block;
+    color: #01089F;
+    text-decoration: none;
+    font-size: 25px;
+    max-width: 300px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    border-color: #01089F;
+    padding: 16px 0px;
+    line-height: 107.9%;
+    text-align: center;
+    list-style-type: none;
+}
+.back{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-family: 'Gothic A1';
+    font-size: 25px;
+    padding-left: 0px;
+}
+
+ @media (max-width: 868px) {  
+    header {
+       padding: 10px 0;
+    }
+    /* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*/
+    .banner3, .banner34, .navigation, .wrapper, .title2, 
+    .girlR, .regR, .vh1, .kn, .knopka, .footer-col, .banner2,  
+    .picter33, .picter55, .btn3, .btn4б, .picter66, .picter77, .picter88,
+    .banner4, .h1, .reklamaN7, .back,
+    .picter11, .picter22, .picter4, .vopr, .btn, .btn1, .banner33, .regL  {
+        max-width: 100%;
+    }
+    .wrapper{
+        padding-left: 10px;
+        padding-right: 15px;
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .banner3{
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        color: #FFFFFF;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        height: auto;
+        width: auto;
+        height: 750px;
+    }
+    .girlR{
+        position: absolute;
+        width: 250px; height: 250px;
+        right:  15px;
+        opacity: 0.5;
+        top: -80px;
+    }
+    .regR{
+        position: relative;
+        margin-left: 25px;
+        margin-top: 50px;
+        border-radius: 7px;
+        max-width: 600px;
+        width: 100%;
+        height: 620px;
+        background-color: #d14a5d;
+    }
+    .title2{
+        padding-top: 10px;
+        padding-left: 70px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 107.9%;
+        color: #FFFFFF;
+        font-family: 'Gothic A1';
+    }
+    .h1h, .h1h1{
+        padding-left: 40px;
+    }
+    .vh1{
+        margin-top: 50px;
+       margin-right: 470px;
+    }
+    .vh1>p{
+        
+        display: inline-block;  
+        text-align: right;
+        font-family: 'Gothic A1';
+        font-size: 16px;
+        padding-left: 0px;
+        width: 500px;
+    }
+    .knopka{
+        margin-left: 220px;
+    }
+    .kn{
+        margin-top: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 220px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 15px;
+        display: block;
+        font-family: 'Gothic A1';
+        font-size: 16px;
+        padding-left: 0px;
+        width: 200px;
+    }
+    /*регистр. студента*/
+    .regS{
+        position: relative;
+        margin-left: 45px;
+        margin-top: 50px;
+        border-radius: 7px;
+        width: 600px;
+        height: 750px;
+        background-color: #d14a5d;
+    }
+    .banner34{
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        color: #FFFFFF;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        height: auto;
+        width: auto;
+        height: 900px;
+    }
+    .vh{
+        margin-top: 30px;
+       margin-left: -40px;
+    }
+    .vh>p{
+        
+        display: inline-block;  
+        text-align: right;
+        font-family: 'Gothic A1';
+        font-size: 16px;
+        padding-left: 20px;
+        width: 500px;
+    }
+    /*авториз*/
+    .vopr{
+        display: none;
+    }
+    .picter33{
+        width: 200px; 
+        height: 200px; 
+        margin-top: -50px;
+    }
+    .picter44{
+        display: none;
+    }
+    .picter55{
+        width: 250px; 
+        height: 250px; 
+        margin-top: -20px;
+    }
+    .btn3{
+        padding-top: 70px;
+        padding-left: 0px;
+        display: flex;
+    }
+    .btn4{
+        display: block;
+        color: #01089F;
+        text-decoration: none;
+        font-size: 25px;
+        max-width: 180px;
+        border: 2px solid #fff;
+        border-radius: 7px;
+        border-color: #01089F;
+        padding: 16px 0px;
+        line-height: 107.9%;
+        text-align: center;
+        list-style-type: none;
+        width: 100%;
+        margin-left: 40px;
+    }
+/*авториз2*/
+.picter66{
+    width: 200px; 
+    height: 200px; 
+    margin-top: -50px;
+}
+.picter77{
+    display: none;
+}
+.picter88{
+    width: 250px; 
+    height: 250px; 
+    margin-top: -20px;
+}
+/*employer*/
+.h1{
+    padding-top: -20px;
+    width: 350px;
+    height: 70px;
+    padding-left: 100px;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 30px;
+    line-height: 107.9%;
+    text-align: center;
+    color: #01089F;
+    }
+    .vopr{
+        display: none;
+    }
+    .picter4{
+        display: none;
+    }
+    .btn{
+        padding-left: 125px;
+    }
+    .btn1{
+        display: block;
+        color: #01089F;
+        text-decoration: none;
+        font-size: 25px;
+        max-width: 250px;
+        border: 2px solid #fff;
+        border-radius: 7px;
+        border-color: #01089F;
+        padding: 5px 0px;
+        line-height: 107.9%;
+        text-align: center;
+        list-style-type: none;
+    }
+    .reklamaN7{
+    position: relative; 
+    margin-top: 270px;
+    height: 90px;
+    font: 20px;
+    background: #e4dede;
+    font-family: 'Gothic A1';
+    text-align: center;
+    color: #000000;
+    }
+    /* LKRab*/
+    .regL{
+        position: relative;
+        margin-left: 25px;
+        margin-top: 50px;
+        border-radius: 7px;
+        max-width: 600px;
+        width: 100%;
+        height: 620px;
+        background-color: #d14a5d;
+    }
+    .back{
+        margin-top: 20px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: #ffffff;
+        display: block;
+        font-family: 'Gothic A1';
+        font-size: 15px;
+        padding-left: 0px;
+    }
+        /*LKStud*/
+        .regLS{
+            position: relative;
+            margin-left: 55px;
+            margin-top: 50px;
+            border-radius: 7px;
+            width: 600px;
+            height: 700px;
+            background-color: #d14a5d;
+        }
+}
+ @media screen and (max-width: 615px) {
+    header {
+        padding: 10px 0;
+     }
+     /* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*/
+     .banner3, .banner34, .navigation, .wrapper, .title2, 
+     .girlR, .regR, .vh1, .kn, .knopka, .footer-col, .banner2{
+         max-width: 100%;
+     }
+     .wrapper{
+         padding-left: 10px;
+         padding-right: 15px;
+         width: 100%;
+         max-width: 1170px;
+         margin: 0 auto;
+         position: relative;
+     }
+     .banner3{
+         background-color: #fff;
+         background-repeat: no-repeat;
+         background-size: auto;
+         background-position: center;
+         color: #FFFFFF;
+         padding-top: 50px;
+         padding-bottom: 0px;
+         height: auto;
+         width: auto;
+         height: 750px;
+     }
+     .girlR{
+         position: absolute;
+         width: 250px; height: 250px;
+         right:  15px;
+         opacity: 0.5;
+         top: -80px;
+     }
+     .regR{
+         margin-left: 5px;
+         margin-top: 50px;
+         border-radius: 7px;
+         max-width: 450px;
+         width: 100%;
+         height: 620px;
+         background-color: #d14a5d;
+     }
+     .title2{
+         padding-top: 10px;
+         padding-left: 50px;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 107.9%;
+         color: #FFFFFF;
+         font-family: 'Gothic A1';
+     }
+     .h1h{
+         padding-left: 40px;
+     }
+     .vh1{
+         margin-top: 50px;
+        margin-left:-80px;
+        margin-right: none;
+     }
+     .vh1>p{
+         
+         display: inline-block;  
+         text-align: right;
+         font-family: 'Gothic A1';
+         font-size: 16px;
+         padding-left: 0px;
+         width: 500px;
+     }
+     .knopka{
+         margin-left: 220px;
+     }
+     .kn{
+         margin-top: 20px;
+         text-decoration: none;
+         color: #ffffff;
+         margin-left: 140px;
+         text-align: center;
+         padding-top: 5px;
+         border-radius: 15px;
+         display: block;
+         font-family: 'Gothic A1';
+         font-size: 16px;
+         padding-left: 0px;
+         width: 200px;
+     }
+     /*регистр. студента*/
+     .regS{
+         margin-left: 5px;
+         margin-top: 50px;
+         border-radius: 7px;
+         width: 450px;
+         height: 750px;
+         background-color: #d14a5d;
+     }
+     .banner34{
+         background-color: #fff;
+         background-repeat: no-repeat;
+         background-size: auto;
+         background-position: center;
+         color: #FFFFFF;
+         padding-top: 50px;
+         padding-bottom: 0px;
+         height: auto;
+         width: auto;
+         height: 900px;
+     }
+     .vh{
+         margin-top: 30px;
+        margin-left: -130px;
+     }
+     .vh>p{
+         
+         display: inline-block;  
+         text-align: right;
+         font-family: 'Gothic A1';
+         font-size: 16px;
+         padding-left: 20px;
+         width: 500px;
+     }
+     .kn1{
+        margin-top: 0px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 140px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 15px;
+        display: block;
+        font-family: 'Gothic A1';
+        font-size: 16px;
+        padding-left: 0px;
+        width: 200px;
+    }
+    .knopka1{
+        margin-left: -50px;
+    }
+        /* LKRab*/
+        .regL{
+            position: relative;
+            margin-left: 5px;
+            margin-top: 50px;
+            border-radius: 7px;
+            max-width: 450px;
+            width: 100%;
+            height: 620px;
+            background-color: #d14a5d;
+        }
+        .back{
+            margin-top: 20px;
+            margin-left: 50px;
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+            font-family: 'Gothic A1';
+            font-size: 15px;
+            padding-left: 0px;
+        }
+        .h1h1{
+            padding-left: 0px;
+        }
+    /*LKStud*/
+    .regLS{
+        position: relative;
+        margin-left: 5px;
+        margin-top: 50px;
+        border-radius: 7px;
+        width: 450px;
+        height: 700px;
+        background-color: #d14a5d;
+    }
+}
